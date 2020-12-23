@@ -55,9 +55,9 @@ if sounds:
     sound_tick = pygame.mixer.Sound("assets/tick.wav")
     sound_lose = pygame.mixer.Sound("assets/lose.wav")
 if music:
-    sound_music = pygame.mixer.Sound("assets/music.mp3")
-    pygame.mixer.Sound.set_volume(sound_music, 0.1)
-    sound_music.play(-1)
+    sound_music = pygame.mixer.music.load("assets/music.ogg")
+    pygame.mixer.music.set_volume(0.1)
+    pygame.mixer.music.play(-1)
 
 
 def pause(place):
@@ -65,6 +65,7 @@ def pause(place):
     pygame.event.set_grab(False)
     paused = True
     pygame.mixer.pause()
+    pygame.mixer.music.pause()
     paused_text = font_bigger.render("Paused", True, (255, 255, 255))
     if place == "default":
         screen.blit(
@@ -97,6 +98,7 @@ def pause(place):
             break
 
     pygame.mixer.unpause()
+    pygame.mixer.music.unpause()
     return
 
 
