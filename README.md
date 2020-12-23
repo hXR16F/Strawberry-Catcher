@@ -1,7 +1,7 @@
 <p align="center">
 	<b>Strawberry Catcher</b>
 	<br>
-  <i>Simple game about collecting strawberries.</i>
+	<i><a href="https://www.pygame.org/wiki/about">Pygame</a> powered game about collecting strawberries.</i>
 	<br><br><br>
 	<img alt="Screenshot_1" src="https://user-images.githubusercontent.com/48186982/103015354-90883080-4540-11eb-8a8d-d261192f9ddd.gif">
 </p>
