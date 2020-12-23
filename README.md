@@ -8,9 +8,12 @@
 
 # Building
 ### Windows
-* Install `pyinstaller` using `pip3 install pyinstaller`.
-* Install [aut2exe](https://www.autoitscript.com/site/autoit/downloads/) and add it to environment variable (%PATH%) to make it being accessed via cmd.
+* Install `pyinstaller` using `pip3 install pyinstaller` and make it usable by adding it to environment variable (%PATH%).
+* Install [aut2exe](https://www.autoitscript.com/site/autoit/downloads/) and also add it to environment variable.
 * Run `build.bat` and `dist` folder will be created.
+
+# Thanks
+Thanks to [Rosalka](https://github.com/Rosalka) for game idea and [Pawcio](https://github.com/Losiuuu) for being a tester.
 
 # Donate
 If you support my work or like my projects, [you can donate me some money](https://github.com/hXR16F/donate/blob/master/README.md). Thank you 💙
