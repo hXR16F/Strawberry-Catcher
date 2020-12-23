@@ -8,8 +8,8 @@
 
 # Building
 ### Windows
-* Install `pyinstaller` using `pip3 install pyinstaller` and make it usable by adding it to environment variable (%PATH%).
-* Install [aut2exe](https://www.autoitscript.com/site/autoit/downloads/) and also add it to environment variable.
+* Install [pyinstaller](https://www.pyinstaller.org) using `pip3 install pyinstaller` and make it usable by adding it to environment variable (%PATH%).
+* Install [aut2exe](https://www.autoitscript.com/site/autoit/downloads) and also add it to environment variable.
 * Run `build.bat` and `dist` folder will be created.
 
 # Thanks
