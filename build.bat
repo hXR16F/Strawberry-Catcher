@@ -15,6 +15,7 @@ pyinstaller --onefile --noconsole --noupx main.pyw && (
 	cd ..
 	aut2exe /in settings.au3 /out StrawberryCatcherSettings.exe /comp 4 /nopack
 	move StrawberryCatcherSettings.exe dist
+	copy settings.json dist
 )
 @ping localhost -n 2 >nul
 exit /b
